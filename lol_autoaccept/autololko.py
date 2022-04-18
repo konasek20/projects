@@ -1,6 +1,4 @@
 import time
-import json
-import tkinter as tk
 import pyautogui
 from python_imagesearch.imagesearch import imagesearch, imagesearch_loop
 
