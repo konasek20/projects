@@ -11,16 +11,16 @@ class Window(Frame):
         self.pack(fill=BOTH, expand=1)
 
         # linkne co to tlačítko má udělat 
-        exitButton = Button(self, text="Exit", command=autololko) 
+        exitButton = Button(self, text="Start", command=autololko) 
 
         # poloha
-        exitButton.place(x=100, y=120)
+        exitButton.place(relx=.5, rely=.5,anchor= CENTER)
 
     def clickExitButton(self):
         exit()
         
 root = Tk()
 app = Window(root)
-root.wm_title("Auto přimímač lolka")
+root.wm_title("Auto přimímač lolka by konasek20")
 root.geometry("320x200")
 root.mainloop()
